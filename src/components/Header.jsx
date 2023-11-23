@@ -1,49 +1,49 @@
 
-import {  NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 
 function Header() {
   return (
     <div>
-       <>
- <div className='w-full justify-between flex p-8 h-[15vh] fixed top-0 bg-white '>
-   <div><h2 className='text-4xl font-sans bg-white rounded-full shadow-lg p-[.5rem] '>Xamorite E</h2></div>
-   <div className='flex justify-between bold '><ul className='flex mx-4 justify-between text-lg p-[-3%] rounded-full bg-[ #FFFFFF;
+      <>
+        <div className='w-full justify-between flex p-8 h-[15vh] fixed top-0 bg-white '>
+          <div><h2 className='text-4xl font-sans bg-white rounded-full shadow-lg p-[.5rem] '>Xamorite E</h2></div>
+          <div className='flex justify-between bold '><ul className='flex mx-4 justify-between  p-[-3%] rounded-full bg-[ #FFFFFF;
 ]'>
-    <NavLink to='/' className={({isActive}) => `btn cursor-pointer    mx-4 hover:bg-[black] hover:text-white hover:rounded-full px-3
-    ${isActive ? 'bg-black text-white rounded-full px-3' : ''}
+            <NavLink to='/' className={({ isActive }) => `btn cursor-pointer    mx-4 hover:bg-[black] hover:text-white hover:rounded-full px-3
+                 ${isActive ? 'bg-black text-white rounded-full px-3' : ''}
     `}>
-   <li className='btn cursor-pointer    mx-4 hover:bg-[black] hover:text-white hover:rounded-full px-3'>Home</li>
-    </NavLink>
+              <li className=' cursor-pointer    mx-4 hover:bg-[black] hover:text-white hover:rounded-full px-3'>Home</li>
+            </NavLink>
 
-    <NavLink to='/CaseStudies' className={({isActive}) => `btn cursor-pointer    mx-4 hover:bg-[black] hover:text-white hover:rounded-full px-3
-    ${isActive ? 'bg-black text-white rounded-full px-3' : ''}
+            <NavLink to='/CaseStudies' className={({ isActive }) => `btn cursor-pointer    mx-4 hover:bg-[black] hover:text-white hover:rounded-full px-3
+                  ${isActive ? 'bg-black text-white rounded-full px-3' : ''}
     `}>
-    <li className=''>Case Studies</li>
+              <li className=''>Case Studies</li>
 
-    </NavLink>
-    
-    <NavLink to='/About' className={({isActive}) => `btn cursor-pointer    mx-4 hover:bg-[black] hover:text-white hover:rounded-full px-3
-    ${isActive ? 'bg-black text-white rounded-full px-3' : ''}
+            </NavLink>
+
+            <NavLink to='/About' className={({ isActive }) => `btn cursor-pointer    mx-4 hover:bg-[black] hover:text-white hover:rounded-full px-3
+                 ${isActive ? 'bg-black text-white rounded-full px-3' : ''}
     `}>
-    <li className=''>About</li>
+              <li className=''>About</li>
 
-    </NavLink>
-    <NavLink to='/About' className={({isActive}) => `btn cursor-pointer    mx-4 hover:bg-[black] hover:text-white hover:rounded-full px-3
-    ${isActive ? 'bg-black text-white rounded-full px-3' : ''}
+            </NavLink>
+            <NavLink to='/About' className={({ isActive }) => `btn cursor-pointer    mx-4 hover:bg-[black] hover:text-white hover:rounded-full px-3
+                 ${isActive ? 'bg-black text-white rounded-full px-3' : ''}
     `}>
-    <li className=''>About</li>
+              <li className=''>About</li>
 
-    </NavLink>
-   </ul>
-   </div>
-   <div><ul className='flex mx-4 justify-between '>
-    <li className='mx-2 text-xl' >TW</li>
-    <li className='mx-2 text-xl'>IG</li>
-    <li className='mx-2 text-xl'>BE</li>
-    <li className='mx-2 text-xl'>DRIB</li></ul></div>
- </div>
- </>
+            </NavLink>
+          </ul>
+          </div>
+          <div><ul className='flex mx-4 justify-between '>
+            <li className='mx-2 text-xl ' >TW</li>
+            <li className='mx-2 text-xl'>IG</li>
+            <li className='mx-2 text-xl'>BE</li>
+            <li className='mx-2 text-xl'>DRIB</li></ul></div>
+        </div>
+      </>
     </div>
   )
 }

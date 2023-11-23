@@ -1,7 +1,6 @@
-import React from 'react'
-import { Link, NavLink } from 'react-router-dom'
-import About from "./About/About"
-import Home from "./Home/Home"
+
+import {  NavLink } from 'react-router-dom'
+
 
 function Header() {
   return (

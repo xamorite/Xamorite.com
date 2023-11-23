@@ -33,9 +33,11 @@ function About() {
 
         <ul className="mt-[13vh]">
           
-          <li className="flex row justify-between h-[5vh] my-[5vh] pb-[5vh] border-b-[.3vh] border-slate-700 align-center"><span>Webframe </span><span>2023</span></li>
-          <li className="flex row justify-between h-[5vh] my-[5vh] pb-[5vh] border-b-[.3vh] border-slate-700 align-center"><span>Digital Design</span><span>2023</span></li>
-          <li className="flex row justify-between h-[5vh] my-[5vh] pb-[5vh] border-b-[.3vh] border-slate-700 align-center"><span>Webflow develoopment</span><span>2023</span></li>
+          <li className="flex row justify-between h-[5vh] my-[5vh] pb-[5vh] border-b-[.3vh] border-slate-700 align-center"><span>Webframe </span><span className='w-[25vw] text-[.8vw]
+          
+          j'>Wireframes are a crucial tool in the design process, providing a blueprint for the layout and functionality of a digital product. To create effective wireframes, it&apos;s important to understand the users needs and goals, as well as the requirements and constraints of the project.</span></li>
+          <li className="flex row justify-between h-[5vh] my-[5vh] pb-[5vh] border-b-[.3vh] border-slate-700 align-center"><span>Digital Design</span><span className='w-[25vw] text-sm'>Wireframes are a crucial tool in the design process, providing a blueprint for the layout and functionality of a digital product. To create effective wireframes, it&apos;s important to understand the users needs and goals, as well as the requirements and constraints of the project.</span></li>
+          <li className="flex row justify-between h-[5vh] my-[5vh] pb-[5vh] border-b-[.3vh] border-slate-700 align-center"><span>Webflow develoopment</span><span className='w-[25vw] text-sm'>Wireframes are a crucial tool in the design process, providing a blueprint for the layout and functionality of a digital product. To create effective wireframes, it&apos;s important to understand the users needs and goals, as well as the requirements and constraints of the project.</span></li>
         </ul>
 
     </div>

@@ -6,8 +6,8 @@ function Header() {
   return (
     <div>
       <>
-        <div className='w-[100vw] justify-between flex p-8 h-[15vh] fixed top-0 bg-white '>
-          <div><h2 className='text-4xl font-sans bg-white  '>Xamorite E</h2></div>
+        <div className='w-[100vw] justify-between flex p-8 h-[15vh] fixed top-0 bg-white sm:w-[90vw]'>
+          <div><h2 className='text-4xl font-sans bg-white sm:text-[3vw] '>Xamorite E</h2></div>
           <div className='flex justify-between bold '><ul className='flex mx-4 justify-between  p-[-3%] rounded-full bg-[ #FFFFFF;
 ]'>
             <NavLink to='/' className={({ isActive }) => `btn cursor-pointer    mx-4 hover:bg-[black] hover:text-white hover:rounded-full px-3

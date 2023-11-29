@@ -1,8 +1,5 @@
 
-import ux from "./ui/ux/ux"
-import {  NavLink } from "react-router-dom"
 // import Unone from ''
-
 
 function Casestudies() {
   return (
@@ -13,15 +10,15 @@ function Casestudies() {
             featured projects
         </div>
         <div className="my-[10vh] ps-0">
-            <NavLink className={()=>'mx-[2vw] rounded-full btn-outline border-[black] p-2 border-[1px]  '} to={ux}> 
-            <span className="btn outline-black border-black rounded-full ">UI/UX Design</span>
-            </NavLink>
-            <NavLink className={()=>'mx-[2vw] rounded-full btn-outline border-[black] p-2 border-[1px]  '} to=''> 
+            <button className='mx-[2vw] rounded-full btn-outline border-[black] p-2 border-[1px] '> 
+            <span className="btn outline-black border-black rounded-full">UI/UX Design</span>
+            </button>
+            <button className='mx-[2vw] rounded-full btn-outline border-[black] p-2 border-[1px]'> 
             <span className="btn outline-black border-black rounded-full ">Web Development</span>
-            </NavLink>
-            <NavLink className={()=>'mx-[2vw] rounded-full btn-outline border-[black] p-2 border-[1px]  '} to=''> 
+            </button>
+            <button className='mx-[2vw] rounded-full btn-outline border-[black] p-2 border-[1px] '> 
             <span className="btn outline-black border-black rounded-full ">Web Development</span>
-            </NavLink>
+            </button>
         </div>
       </div>
      <div className="row">

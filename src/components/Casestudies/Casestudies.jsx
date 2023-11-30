@@ -87,13 +87,13 @@ function Casestudies() {
 
 
       {showMessage2 &&
-      <div className='w-[80vw] mb-[10vh]'>
+      <div className='w-[80vw]'>
          <div className=' mx-auto w-[80vw] flex mt-[10vh]'>
       <img src={unten} alt=""className='w-[30vw] mx-[5vw]'/>
     <img src={unone} alt="" className='w-[30vw] mx-[5vw]'/>
       </div>
 
-      <div className=' mx-auto mt-[10vh] w-[80vw] flex'>
+      <div className=' mx-auto mt-[10vh] w-[80vw] flex mb-[10vh]'>
       <img src={up} alt=""className='w-[30vw] mx-[5vw]'/>
     <img src={unthree} alt="" className='w-[30vw] mx-[5vw]'/>
       </div>

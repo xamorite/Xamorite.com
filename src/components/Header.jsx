@@ -28,10 +28,10 @@ function Header() {
               <li className=''>About</li>
 
             </NavLink>
-            <NavLink to='/About' className={({ isActive }) => `btn cursor-pointer    mx-4 hover:bg-[black] hover:text-white hover:rounded-full px-3
+            <NavLink to='/Contact' className={({ isActive }) => `btn cursor-pointer    mx-4 hover:bg-[black] hover:text-white hover:rounded-full px-3
                  ${isActive ? 'bg-black text-white rounded-full px-3' : ''}
     `}>
-              <li className=''>About</li>
+              <li className=''>Contact</li>
 
             </NavLink>
           </ul>

@@ -93,7 +93,7 @@ function Casestudies() {
     <img src={unone} alt="" className='w-[30vw] mx-[5vw]'/>
       </div>
 
-      <div className=' mx-auto mb-[10vh] w-[80vw] flex'>
+      <div className=' mx-auto mt-[10vh] w-[80vw] flex'>
       <img src={up} alt=""className='w-[30vw] mx-[5vw]'/>
     <img src={unthree} alt="" className='w-[30vw] mx-[5vw]'/>
       </div>

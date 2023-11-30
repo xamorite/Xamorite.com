@@ -14,8 +14,8 @@ function Header() {
 
   return (
     
-        <div className='w-full justify-between flex p-3   fixed top-0 bg-white md:w-full'>
-          <div><span className='text-2xl bold'>Xamorite</span></div>
+        <div className='w-full justify-between flex p-3   fixed top-0 bg-white md:w-full overflow-hidden'>
+          <div className='max-'><span className='text-2xl bold'>Xamorite</span></div>
           <div className='flex justify-between  '><ul className='flex mx-4 justify-between  p-[-3%] rounded-full bg-[ #FFFFFF; sm:visibility:hidden
 ]'>
            
@@ -35,7 +35,7 @@ function Header() {
               }
 
 <li className='cursor-pointer' > 
-            <ul className='flex ms-0 justify-between w-[30%]'>
+            <ul className='flex ms-auto justify-between '>
             <li className='mx-2 text-xl ' >TW</li>
             <li className='mx-2 text-xl'>IG</li>
             <li className='mx-2 text-xl'>BE</li>

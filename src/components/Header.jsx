@@ -5,9 +5,9 @@ import { NavLink } from 'react-router-dom'
 function Header() {
   return (
     
-        <div className='w-[100vw] justify-between flex p-8 h-[15vh] fixed top-0 bg-white sm:w-[100vw]'>
-          <div><span className='text-[2vw]  font-sans  sm:text-[1.5vw] bold'>Xamorite</span></div>
-          <div className='flex justify-between  '><ul className='flex mx-4 justify-between  p-[-3%] rounded-full bg-[ #FFFFFF;
+        <div className='w-[100vw] justify-between flex p-[2vh] h-[10vh] fixed top-0 bg-white sm:w-[100vw]'>
+          <div><span className='text-[2vw]  font-sans  sm:text-[3vw] sm:bold bold'>Xamorite</span></div>
+          <div className='flex justify-between  '><ul className='flex mx-4 justify-between  p-[-3%] rounded-full bg-[ #FFFFFF; sm:visibility:hidden
 ]'>
             <NavLink to='/' className={({ isActive }) => `btn cursor-pointer text-center    mx-4 hover:bg-[black] hover:text-white hover:rounded-full px-3
                  ${isActive ? 'bg-black text-white rounded-full px-3' : ''}

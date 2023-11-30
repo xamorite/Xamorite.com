@@ -14,7 +14,7 @@ function Header() {
 
   return (
     
-        <div className='w-full justify-between flex p-3   fixed top-0 bg-white sm:w-full'>
+        <div className='w-full justify-between flex p-3   fixed top-0 bg-white md:w-full'>
           <div><span className='text-2xl bold'>Xamorite</span></div>
           <div className='flex justify-between  '><ul className='flex mx-4 justify-between  p-[-3%] rounded-full bg-[ #FFFFFF; sm:visibility:hidden
 ]'>

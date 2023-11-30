@@ -2,7 +2,7 @@
 
 function Footer() {
   return (
-    <div className='bg-black text-white  flex-row mb-0 h-[50vh] position-relative items-stretch p-8 '>
+    <div className='bg-black text-white  flex-row mb-0  position-relative items-stretch p-8 w-full'>
       <div className='flex justify-between fw-lighter h-[10vh] '>
           <span>Portfolio 2023 - 2024</span><span>OGUNNEYE EMMANUEL</span><span>51.5074° N, 0.1278° W</span>
       </div>

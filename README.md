@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Xamorite</h1>
 <h3 align="center">A passionate frontend developer from Nigeria</h3>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=xamorite" alt="xamorite" /></a> </p>
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://img.freepik.com/premium-vector/businessman-analyzing-financial-data-world-map-businessman-global-business-concept_70921-1813.jpg?size=626&ext=jpg&uid=R99695516&ga=GA1.1.9544066.1696505473&semt=ais" alt="xamorite" /></a> </p>
 
 - 🔭 I’m currently working on **car website**
 

@@ -15,7 +15,7 @@ function Header() {
 
   return (
 
-    <div className='w-full justify-between flex px-5 lg:px-10 py-2 sticky top-0 z-30 '>
+    <div className='w-full justify-between flex px-5 lg:px-10 py-2 sticky top-0 z-30 bg-white'>
       <h1 className='text-2xl bold'>Xamorite</h1>
       <div className='flex justify-between '>
 
@@ -28,7 +28,7 @@ function Header() {
           <div className='ml-auto flex space-x-6'>
             {Links.map(link => (
               <div key={link.name} className='hidden md:flex md:flex-1 md:items-center md:justify-center'>
-                  <Link to={link.link} className='font-meduim'>
+                  <Link to={link.link} className='font-semibold'>
                     {link.name}
                   </Link>
               </div>

@@ -59,7 +59,7 @@ function Casestudies() {
       </div>
 
       {showMessage1 &&
-        <div className=' max-w-lg mb-10  mx-auto'>
+        <div className='max-w-lg mb-10  mx-auto bg-slate-500'>
           <div className='grid grid-cols-2 gap-y-6 md:gap-x-8'>
             <img src={up} alt="" className='works' />
             <img src={unthree} alt="" className='works' />

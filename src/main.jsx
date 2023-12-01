@@ -8,16 +8,16 @@ import Home from './components/Home/Home.jsx'
 import Casestudies from './components/Casestudies/Casestudies.jsx'
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path='/' element={<Layout/>}>
-      <Route path='/' element={<Home />}/>
-    <Route path='about' element={<About />}/>
-    <Route path='casestudies' element={<Casestudies/>}/>
+    <Route path='/' element={<Layout />}>
+      <Route path='/' element={<Home />} />
+      <Route path='about' element={<About />} />
+      <Route path='casestudies' element={<Casestudies />} />
     </Route>
   ),
 );
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router}/>
+    <RouterProvider router={router} />
   </React.StrictMode>,
 )

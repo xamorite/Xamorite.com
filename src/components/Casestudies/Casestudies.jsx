@@ -57,49 +57,51 @@ function Casestudies() {
           </button>
         </div>
       </div>
+      <div className='flex-1'>
 
-      {showMessage1 &&
-        <div className='max-w-lg mb-10  mx-auto bg-slate-500'>
-          <div className='grid grid-cols-2 gap-y-6 md:gap-x-8'>
-            <img src={up} alt="" className='works' />
-            <img src={unthree} alt="" className='works' />
-            <img src={unfour} alt="" className='works' />
-            <img src={unnine} alt="" className='works' />
-
-
-            <img src={unten} alt="" className='works' />
-            <img src={unone} alt="" className='works' />
+        {showMessage1 &&
+          <div className='max-w-lg mb-10  mx-auto bg-slate-500'>
+            <div className='grid grid-cols-2 gap-y-6 md:gap-x-8'>
+              <img src={up} alt="" className='works' />
+              <img src={unthree} alt="" className='works' />
+              <img src={unfour} alt="" className='works' />
+              <img src={unnine} alt="" className='works' />
 
 
-            <img src={untwo} alt="" className='works' />
-            <img src={unll} alt="" className='works' />
+              <img src={unten} alt="" className='works' />
+              <img src={unone} alt="" className='works' />
+
+
+              <img src={untwo} alt="" className='works' />
+              <img src={unll} alt="" className='works' />
+            </div>
           </div>
-        </div>
-      }
+        }
 
 
 
-      {showMessage2 &&
-        <div className='max-w-lg mb-10  mx-auto'>
-          <div className='grid grid-cols-2 gap-y-6 md:gap-x-8'>
-            <img src={unten} alt="" className='works' />
-            <img src={unone} alt="" className='works' />
-            <img src={up} alt="" className='works' />
-            <img src={unthree} alt="" className='works' />
+        {showMessage2 &&
+          <div className='max-w-lg mb-10  mx-auto'>
+            <div className='grid grid-cols-2 gap-y-6 md:gap-x-8'>
+              <img src={unten} alt="" className='works' />
+              <img src={unone} alt="" className='works' />
+              <img src={up} alt="" className='works' />
+              <img src={unthree} alt="" className='works' />
+            </div>
           </div>
-        </div>
 
-      }
-      {showMessage3 &&
+        }
+        {showMessage3 &&
 
-        <div className='max-w-lg mb-10  mx-auto'>
-          <div className='grid grid-cols-2 gap-y-6 md:gap-x-8'>
-            <img src={untwo} alt="" className='works'/>
-            <img src={unnine} alt="" className='works'/>
+          <div className='max-w-lg mb-10  mx-auto'>
+            <div className='grid grid-cols-2 gap-y-6 md:gap-x-8'>
+              <img src={untwo} alt="" className='works' />
+              <img src={unnine} alt="" className='works' />
+            </div>
           </div>
-        </div>
 
-      }
+        }
+      </div>
 
     </div>
   )

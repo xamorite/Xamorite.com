@@ -37,7 +37,7 @@ function Header() {
           
             
 
-          {/* <ul className={`md:flex md:items-center md:pb-0 pd-12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20' : 'top-[-490px]'}`}>
+          <ul className={`md:flex md:items-center md:pb-0 pd-12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20' : 'top-[-490px]'}`}>
             {
               Links.map((link) =>
 
@@ -46,15 +46,7 @@ function Header() {
                 </li>
               )
             }
-
-            <li className='cursor-pointer' >
-              <ul className='flex ms-auto justify-between '>
-                <li className='mx-2 text-xl ' >TW</li>
-                <li className='mx-2 text-xl'>IG</li>
-                <li className='mx-2 text-xl'>BE</li>
-                <li className='mx-2 text-xl'>DRIB</li></ul>
-            </li>
-          </ul> */}
+          </ul>
 
 
           {/* <NavLink to='/CaseStudies' className={({ isActive }) => `btn cursor-pointer    mx-4 hover:bg-[black] hover:text-white hover:rounded-full px-3

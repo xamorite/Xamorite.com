@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom';
 function Header() {
 
   let Links = [
-    { name: "Home", link: "./" },
-    { name: "Casestudies", link: "./CaseStudies" },
-    { name: "About", link: "./About" },
-    { name: "Contact", link: "./Contact" },
+    { name: "Home", link: "/" },
+    { name: "Casestudies", link: "/casestudies" },
+    { name: "About", link: "/about" },
+    { name: "Contact", link: "/Contact" },
   ];
 
   let [open, setOpen] = useState(false)

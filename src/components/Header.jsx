@@ -36,7 +36,7 @@ function Header() {
           
             
 
-          <ul className={`ml-auto md:ml-0 md:flex md:items-center md:pb-0 pd-12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20' : 'top-[-490px]'}`}>
+          <ul className={` md:flex md:items-center md:pb-0 pd-12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20' : 'top-[-490px]'}`}>
             {
               Links.map((link) =>
 

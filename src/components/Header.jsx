@@ -15,9 +15,9 @@ function Header() {
 
   return (
 
-    <div className='w-full justify-between flex px-5 lg:px-10 py-2 sticky top-0 z-30 bg-slate-800'>
+    <div className='w-full justify-between flex px-5 lg:px-10 py-2 sticky top-0 z-30 '>
       <h1 className='text-2xl bold'>Xamorite</h1>
-      <div className='flex justify-between bg-gray-400 '>
+      <div className='flex justify-between '>
 
           <div onClick={() => setOpen(!open)} className='flex items-center text-3xl  cursor-pointer md:hidden'>
 

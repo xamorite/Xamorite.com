@@ -8,17 +8,17 @@ function Footer() {
 
 
   return (
-    <div className='h-full bg-black text-white flex flex-col px-5 lg:px-10 space-y-5 py-7'>
-      <div className='flex justify-between gap-5'>
-        <span className="text-sm">Portfolio</span>
-        <span className="text-sm">OGUNNEYE EMMANUEL</span>
-        <span className="text-sm">51.5074° N, 0.1278° W</span>
+    <div className='bg-black text-white flex flex-col px-5 lg:px-10 space-y-5 py-7'>
+      <div className='flex justify-between  items-center py-3'>
+        <span className="text-sm md:text-md">Portfolio</span>
+        <span className="text-sm md:text-md">OGUNNEYE EMMANUEL (Xamorite)</span>
+        <span className="text-sm md:text-md">51.5074° N, 0.1278° W</span>
       </div>
-      <div className="flex flex-col justify-center items-center tracking-tighter">
-        <p className="text-gray-400">Have a nice Project?</p>
+      <div className="flex flex-col justify-center items-center">
+        <p className="text-gray-400 ">Have a nice Project?</p>
         <p className="text-4xl">Get in touch</p>
       </div>
-      <div className="flex justify-center gap-10 text-gray-400">
+      <div className="flex justify-center gap-10 text-gray-400 py-2">
         <Link>Twitter</Link>
         <Link>Behance</Link>
         <Link>Instagram</Link>

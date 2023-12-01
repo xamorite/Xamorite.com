@@ -40,7 +40,7 @@ function Casestudies() {
     <div className="">
 
 
-      <div className="flex flex-col gap-20 my-20 px-5 lg:px-10 ">
+      <div className="flex flex-col gap-10 py-10 my-10 px-5 lg:px-10 ">
         <div className="text-2xl ">
           Peek into my latest <br />
           featured projects

@@ -40,75 +40,63 @@ function Casestudies() {
     <div className="">
 
 
-      <div className="flex flex-col gap-20 my-20 ">
+      <div className="flex flex-col gap-20 my-20 px-5 lg:px-10 ">
         <div className="text-2xl ">
           Peek into my latest <br />
           featured projects
         </div>
-        <div className="flex justify-center items-center font-semibold space-x-4">
-          <button className='rounded-full btn-outline border-[black] p-2 border-[1px] ' onClick={handleClick1}>
-            <span className="btn outline-black border-black rounded-full">UI/UX Design</span>
+        <div className="flex justify-center items-center font-semibold space-x-3 lg:space-x-8">
+          <button className='rounded-full border border-black py-2 px-3 ' onClick={handleClick1}>
+            <span className="">UI/UX Design</span>
           </button>
-          <button className='rounded-full btn-outline border-[black] p-2 border-[1px]' onClick={handleClick2}>
-            <span className="btn outline-black border-black rounded-full ">Web Development</span>
+          <button className='rounded-full border border-black py-2 px-3' onClick={handleClick2}>
+            <span className=" ">Web Development</span>
           </button>
-          <button className='rounded-full btn-outline border-[black] p-2 border-[1px] ' onClick={handleClick3}>
-            <span className="btn outline-black border-black rounded-full ">App Development</span>
+          <button className='rounded-full border border-black py-2 px-3 ' onClick={handleClick3}>
+            <span className="">App Development</span>
           </button>
         </div>
       </div>
 
       {showMessage1 &&
-        <div className='w-[80vw] mb-[10vh]'>
-          <div className=' mx-auto w-[80vw] flex'>
-            <img src={up} alt="" className='w-[30vw] mx-[5vw]' />
-            <img src={unthree} alt="" className='w-[30vw] mx-[5vw]' />
-          </div>
-          <div className=' mx-auto w-[80vw] flex mt-[10vh]'>
-            <img src={unfour} alt="" className='w-[30vw] mx-[5vw]' />
-            <img src={unnine} alt="" className='w-[30vw] mx-[5vw]' />
-          </div>
-          <div className=' mx-auto w-[80vw] flex mt-[10vh]'>
-            <img src={unten} alt="" className='w-[30vw] mx-[5vw]' />
-            <img src={unone} alt="" className='w-[30vw] mx-[5vw]' />
-          </div>
-          <div className=' mx-auto w-[80vw] flex mt-[10vh]'>
-            <img src={untwo} alt="" className='w-[30vw] mx-[5vw]' />
-            <img src={unll} alt="" className='w-[30vw] mx-[5vw]' />
-          </div>
+        <div className=' max-w-lg mb-10  mx-auto'>
+          <div className='grid grid-cols-2 gap-y-6 md:gap-x-8'>
+            <img src={up} alt="" className='works' />
+            <img src={unthree} alt="" className='works' />
+            <img src={unfour} alt="" className='works' />
+            <img src={unnine} alt="" className='works' />
 
+
+            <img src={unten} alt="" className='works' />
+            <img src={unone} alt="" className='works' />
+
+
+            <img src={untwo} alt="" className='works' />
+            <img src={unll} alt="" className='works' />
+          </div>
         </div>
       }
 
 
 
       {showMessage2 &&
-        <div className='w-[80vw]'>
-          <div className=' mx-auto w-[80vw] flex mt-[10vh]'>
-            <img src={unten} alt="" className='w-[30vw] mx-[5vw]' />
-            <img src={unone} alt="" className='w-[30vw] mx-[5vw]' />
+        <div className='max-w-lg mb-10  mx-auto'>
+          <div className='grid grid-cols-2 gap-y-6 md:gap-x-8'>
+            <img src={unten} alt="" className='works' />
+            <img src={unone} alt="" className='works' />
+            <img src={up} alt="" className='works' />
+            <img src={unthree} alt="" className='works' />
           </div>
-
-          <div className=' mx-auto mt-[10vh] w-[80vw] flex mb-[10vh]'>
-            <img src={up} alt="" className='w-[30vw] mx-[5vw]' />
-            <img src={unthree} alt="" className='w-[30vw] mx-[5vw]' />
-          </div>
-
-
-
-
         </div>
 
       }
       {showMessage3 &&
 
-        <div className='w-[80vw] mb-[10vh]'>
-
-          <div className=' mx-auto w-[80vw] flex mt-[10vh]'>
-            <img src={untwo} alt="" className='w-[30vw] mx-[5vw]' />
-            <img src={unnine} alt="" className='w-[30vw] mx-[5vw]' />
+        <div className='max-w-lg mb-10  mx-auto'>
+          <div className='grid grid-cols-2 gap-y-6 md:gap-x-8'>
+            <img src={untwo} alt="" className='works'/>
+            <img src={unnine} alt="" className='works'/>
           </div>
-
         </div>
 
       }

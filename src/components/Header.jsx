@@ -37,12 +37,12 @@ function Header() {
           
             
 
-          <ul className={`ml-auto flex space-x-6 transition-all duration-500 ease-in ${open ? 'top-20' : 'top-[-490px]'}`}>
+          <ul className={`ml-auto md:ml-0 md:flex md:items-center md:pb-0 pd-12 absolute md:static bg-white md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20' : 'top-[-490px]'}`}>
             {
               Links.map((link) =>
 
-                <li key={Links.link} className='hidden md:flex md:flex-1 md:items-center md:justify-center'>
-                  <a href={link.link} className='font-semibold text-gray-600 ' >{link.name}</a>
+                <li key={Links.link} className=' md:ml-8 text-xl text-black md:my-0 my-7'>
+                  <a href={link.link} className='text-gray-600 ' >{link.name}</a>
                 </li>
               )
             }

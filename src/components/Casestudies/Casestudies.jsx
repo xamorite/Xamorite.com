@@ -46,13 +46,13 @@ function Casestudies() {
           featured projects
         </div>
         <div className="flex justify-center items-center font-semibold space-x-3 lg:space-x-8">
-          <button className='rounded-full border border-black py-2 px-3 ' onClick={handleClick1}>
+          <button className='rounded-full border border-black py-2 px-3   md:py-1 md:py-1 ' onClick={handleClick1}>
             <span className="">UI/UX Design</span>
           </button>
-          <button className='rounded-full border border-black py-2 px-3' onClick={handleClick2}>
+          <button className='rounded-full border border-black py-2 px-3  md:py-1 md:py-1 ' onClick={handleClick2}>
             <span className=" ">Web Development</span>
           </button>
-          <button className='rounded-full border border-black py-2 px-3 ' onClick={handleClick3}>
+          <button className='rounded-full border border-black py-2 px-3   md:py-1 md:py-1 ' onClick={handleClick3}>
             <span className="">App Development</span>
           </button>
         </div>

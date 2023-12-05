@@ -24,11 +24,11 @@ function About() {
          </h1>
         <img src = {Abou} alt = "workspace" ></img>
         <ul className="mt-[13vh]">
-          <li className="flex row justify-between h-[5vh] my-[5vh] pb-[5vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
-          <li className="flex row justify-between h-[5vh] my-[5vh] pb-[5vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
-          <li className="flex row justify-between h-[5vh] my-[5vh] pb-[5vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
-          <li className="flex row justify-between h-[5vh] my-[5vh] pb-[5vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
-          <li className="flex row justify-between h-[5vh] my-[5vh] pb-[5vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
+          <li className="flex row justify-between h-auto my-[5vh] pb-[5vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
+          <li className="flex row justify-between h-auto my-[5vh] pb-[5vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
+          <li className="flex row justify-between h-auto my-[5vh] pb-[5vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
+          <li className="flex row justify-between h-auto my-[5vh] pb-[5vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
+          <li className="flex row justify-between h-auto my-[5vh] pb-[5vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
         </ul>
 
         <ul className="mt-[15vh]">
@@ -41,13 +41,13 @@ function About() {
         </ul>
 
         <ul className="mt-[13vh]">
-          <li className="flex row justify-between h-auto my-auto pb-[1vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
-          <li className="flex row justify-between h-auto my-auto pb-[1vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
-          <li className="flex row justify-between h-auto my-auto pb-[1vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
-          <li className="flex row justify-between h-auto my-auto pb-[1vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
-          <li className="flex row justify-between h-auto my-auto pb-[1vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
-          <li className="flex row justify-between h-auto my-auto pb-[1vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
-          <li className="flex row justify-between h-auto my-auto pb-[1vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
+          <li className="flex row justify-between h-auto my-[5vh] pb-[1vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
+          <li className="flex row justify-between h-auto my-[5vh] pb-[1vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
+          <li className="flex row justify-between h-auto my-[5vh] pb-[1vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
+          <li className="flex row justify-between h-auto my-[5vh] pb-[1vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
+          <li className="flex row justify-between h-auto my-[5vh] pb-[1vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
+          <li className="flex row justify-between h-auto my-[5vh] pb-[1vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
+          <li className="flex row justify-between h-auto my-[5vh] pb-[1vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
         </ul>
 
     </div>

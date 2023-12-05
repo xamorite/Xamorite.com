@@ -45,7 +45,7 @@ function Header() {
           
             
 
-          <ul className={` md:flex md:items-center md:pb-0 pd-12 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-[0.3s] ease-in ${open ? 'top-20' : 'top-[-490px]'}`}>
+          <ul className={` md:flex md:items-center md:pb-0 pd-12 absolute md:static bg-white md:bg-[#000000] md:bg-opacity-0 md:z-auto z-[1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-[0.3s] ease-in ${open ? 'top-20' : 'top-[-490px]'}`}>
             {
               Links.map((link) =>
 
@@ -88,9 +88,9 @@ function Header() {
           
 
     </div>
-    {isHidden && (<div className=' backdrop-blur-md bg-[#000000] bg-opacity-[3%] w-[50vw] p-[5%] ms-auto me-[4vw] leading-loose justify-center rounded-lg'>
-      <div className='ms-auto cursor-pointer text-3xl ' onClick={closeContact}>
-      <ion-icon name='close'></ion-icon>
+    {isHidden && (<div className=' backdrop-blur-md bg-white md:bg-[#000000] md:bg-opacity-[3%] w-[50vw] p-[5%] ms-auto me-[4vw] leading-loose justify-center rounded-lg '>
+      <div className='ms-auto cursor-pointer' onClick={closeContact}>
+      <ion-icon name='close'  ></ion-icon>
       </div>
     <form action="Contact" className='mx-auto h-[80vh] md:h-auto'>  Hi, my name is <input type="text" placeholder='xamorite' />,you can answer <br />
        me on this email <input type="email" placeholder='xamorite@gmail.com' /> i am looking <br />

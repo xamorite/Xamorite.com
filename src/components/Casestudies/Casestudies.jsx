@@ -60,7 +60,7 @@ function Casestudies() {
       <div className='w-[full] mx-auto'>
 
         {showMessage1 &&
-          <div className= 'mb-10 md:w-[90vw] justify-center '>
+          <div className= 'mx-auto max-w-lg mb-10 md:w-[90vw] justify-center '>
             <div className='grid grid-cols-2 gap-y-6 md:gap-x-8 md:mx-auto justify-center'>
               <img src={up} alt="" className='works' />
               <img src={unthree} alt="" className='works' />

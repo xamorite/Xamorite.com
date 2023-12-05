@@ -9,11 +9,11 @@ function Home() {
   return (
     <div className=' overflow-hidden w-[98.7vw] mx-auto bg-[ #F5F5F5]'>
       <div className='flex justify-between p-8 overflow-x-hidden w-[80vw] mx-auto mt-20 '>
-        <div className=' w-80 overflow-hidden'>
+        <div className=' w-[40vw] overflow-hidden'>
           <p className='text-sm '>Over 18 awards and mentions from renowned industry players like Awwwards, FWA, and CSSDA. I cant wait to see what the future holds as I continue to innovate and create.</p>
         </div>
-        <div className='mx-sm-auto w-2/3'>
-          <p className='lg:text-7xl font-light  md:text-[3vw] sm:text-[4vw]'>UI/UX Designer and Front-end Developer currently based in Nigeria</p>
+        <div className='mx-sm-auto w-[50vw] ms-[3vw] '>
+          <p className='lg:text-7xl md:font-light  md:text-[3vw] sm:text-[4vw] font-semibold text-[5vw] '>UI/UX Designer and Front-end Developer currently based in Nigeria</p>
         </div>
       </div>
       <div className=' flex-col justify-between mt-[10vh] mx-auto '>
@@ -38,14 +38,14 @@ function Home() {
             <li>Knight Frank</li>
           </ul></div>
           <div className='w-[55vw]'>
-            <p className='text-[3.3vw]'>Studied Web Development at  <button className=' btn rounded-full border-black'>Aptech Education </button> And have been working in the development industry for over a decade.</p>
+            <p className=':text-[3.3vw] ms-[4vw]'>Studied Web Development at  <button className=' btn rounded-full border-black'>Aptech Education </button> And have been working in the development industry for over a decade.</p>
           </div>
 
         </div>
 
 
       </div>
-      <p className='w-[41vw] ms-[35vw] mb-[10vh]'>
+      <p className='w-[41vw] ms-[39vw] mb-[10vh]'>
         My passion for development & design started when I was young, and I have pursued this passion by working with a variety of clients and projects over the years. I have worked with startups, small businesses, and large corporations, creating user interfaces for websites, software applications, and mobile apps.
       </p>
       <img src={work} alt="" className='w-full' />

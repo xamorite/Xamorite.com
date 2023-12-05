@@ -60,8 +60,8 @@ function Casestudies() {
       <div className='w-[full] mx-auto'>
 
         {showMessage1 &&
-          <div className='max-w-lg mb-10 md:w-[90vw]  '>
-            <div className='grid grid-cols-2 gap-y-6 md:gap-x-8 md:mx-auto'>
+          <div className= 'mb-10 md:w-[90vw] justify-center '>
+            <div className='grid grid-cols-2 gap-y-6 md:gap-x-8 md:mx-auto justify-center'>
               <img src={up} alt="" className='works' />
               <img src={unthree} alt="" className='works' />
               <img src={unfour} alt="" className='works' />
@@ -81,7 +81,7 @@ function Casestudies() {
 
 
         {showMessage2 &&
-          <div className='max-w-lg mb-10  mx-auto md:w-[90vw]'>
+          <div className='max-w-lg mb-10  mx-auto md:w-[90vw] justify-center'>
             <div className='grid grid-cols-2 gap-y-6 md:gap-x-8'>
               <img src={unten} alt="" className='works' />
               <img src={unone} alt="" className='works' />
@@ -93,7 +93,7 @@ function Casestudies() {
         }
         {showMessage3 &&
 
-          <div className='max-w-lg mb-10  mx-auto md:w-[90vw]'>
+          <div className='max-w-lg mb-10  mx-auto md:w-[90vw] justify-center'>
             <div className='grid grid-cols-2 gap-y-6 md:gap-x-8'>
               <img src={untwo} alt="" className='works' />
               <img src={unnine} alt="" className='works' />

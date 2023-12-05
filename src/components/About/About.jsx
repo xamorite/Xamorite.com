@@ -3,7 +3,7 @@ import Abou from './About.png'
 function About() {
   return (
     <div className='w-[90vw] mx-auto mt-[10vw]  '>
-    <div className='w-[90%] mx-auto sm:text-4xl md:text-4xl text-[3.8vw] lg:text-[1.8vw]  '>Hi 👋, I’m Ogunneye Emmanuel (Xamorite). I am a developer based in UAE, DUBAI focused on creating interactive digital experiences on the web, working with brands and industry leaders such as DISNEY, Volkswagen, Rag & Bone, and Knight Frank amongst others to achieve this. Have been working in the development industry for over a decade.</div>
+    <div className='w-[90%] mx-auto sm:text-4xl md:text-4xl text-[3.9vw] lg:text-[1.8vw]  '>Hi 👋, I’m Ogunneye Emmanuel (Xamorite). I am a developer based in UAE, DUBAI focused on creating interactive digital experiences on the web, working with brands and industry leaders such as DISNEY, Volkswagen, Rag & Bone, and Knight Frank amongst others to achieve this. Have been working in the development industry for over a decade.</div>
     <div className='w-[60vw] ms-auto my-[10vw]'>
       <h1 className='text-[3.8vw]   lg:text-[1.5vw]'> <p className="text-[3.8vw] md:text-[1.8vw] font-semibold">Passion for Design: From <button className='btn-outline-dark btn rounded-full px-2 border-[black] border-[1px] '>Startups</button> to 
       <button className='btn-outline-dark btn rounded-full px-2 border-[black] border-[1px] mx-2'> Corporations</button>,

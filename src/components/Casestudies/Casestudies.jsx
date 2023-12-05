@@ -45,9 +45,28 @@ function Casestudies() {
           Peek into my latest <br />
           featured projects
         </div>
+       <div>
+          {showMessage1&&
+ <h2 className='lg:text-7xl md:font-light  md:text-[3vw] sm:text-[4vw] font-semibold text-[5vw]'>
+All Ui/Ux
+  </h2>
+          }
+             {showMessage2&&
+ <h2 className='lg:text-7xl md:font-light  md:text-[3vw] sm:text-[4vw] font-semibold text-[5vw]'>
+Web Development
+  </h2>
+          }
+             {showMessage3&&
+ <h2 className='lg:text-7xl md:font-light  md:text-[3vw] sm:text-[4vw] font-semibold text-[5vw]'>
+Mobible Application
+  </h2>
+          }
+          </div>
+        
+        
         <div className="flex justify-center items-center font-semibold space-x-3 lg:space-x-8">
           <button className='rounded-full border border-black py-[1vh] px-3   md:py-1  ' onClick={handleClick1}>
-            <span className="">UI/UX Design</span>
+            <span className="">All Designs</span>
           </button>
           <button className='rounded-full border border-black py-[1vh] px-3  md:py-1  ' onClick={handleClick2}>
             <span className=" ">Web Development</span>

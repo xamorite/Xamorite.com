@@ -58,7 +58,7 @@ Web Development
           }
              {showMessage3&&
  <h2 className='lg:text-7xl md:font-light  md:text-[3vw] sm:text-[4vw] font-semibold text-[5vw]'>
-Mobible Application
+Mobile Application
   </h2>
           }
           </div>

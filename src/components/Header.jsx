@@ -88,7 +88,7 @@ function Header() {
           
 
     </div>
-    {isHidden && (<div className=' backdrop-blur-md bg-white md:bg-[#000000] md:bg-opacity-[3%] w-[50vw] p-[5%] ms-auto me-[4vw] leading-loose justify-center rounded-lg '>
+    {isHidden && (<div className=' backdrop-blur-md bg-white md:bg-[#000000] md:bg-opacity-[3%] w-[50vw] p-[5%] ms-auto me-[4vw] leading-loose justify-center rounded-lg overflow-x-hidden '>
       <div className='ms-auto cursor-pointer' onClick={closeContact}>
       <ion-icon name='close'  ></ion-icon>
       </div>

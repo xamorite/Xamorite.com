@@ -46,13 +46,13 @@ function Casestudies() {
           featured projects
         </div>
         <div className="flex justify-center items-center font-semibold space-x-3 lg:space-x-8">
-          <button className='rounded-full border border-black py-2 px-3   md:py-1 md:py-1 ' onClick={handleClick1}>
+          <button className='rounded-full border border-black py-[1vh] px-3   md:py-1  ' onClick={handleClick1}>
             <span className="">UI/UX Design</span>
           </button>
-          <button className='rounded-full border border-black py-2 px-3  md:py-1 md:py-1 ' onClick={handleClick2}>
+          <button className='rounded-full border border-black py-[1vh] px-3  md:py-1  ' onClick={handleClick2}>
             <span className=" ">Web Development</span>
           </button>
-          <button className='rounded-full border border-black py-2 px-3   md:py-1 md:py-1 ' onClick={handleClick3}>
+          <button className='rounded-full border border-black py-[1vh] px-3   md:py-1  ' onClick={handleClick3}>
             <span className="">App Development</span>
           </button>
         </div>
@@ -60,7 +60,7 @@ function Casestudies() {
       <div className='w-[full] mx-auto'>
 
         {showMessage1 &&
-          <div className= 'mx-auto max-w-lg mb-10 md:w-[90vw] justify-center '>
+          <div className= 'mx-auto max-w-lg min-w-min mb-10 md:w-[90vw] justify-center '>
             <div className='grid grid-cols-2 gap-y-6 md:gap-x-8 md:mx-auto justify-center'>
               <img src={up} alt="" className='works' />
               <img src={unthree} alt="" className='works' />
@@ -81,7 +81,7 @@ function Casestudies() {
 
 
         {showMessage2 &&
-          <div className='max-w-lg mb-10  mx-auto md:w-[90vw] justify-center'>
+          <div className=' max-w-lg mb-10 min-w-min  mx-auto md:w-[90vw] justify-center'>
             <div className='grid grid-cols-2 gap-y-6 md:gap-x-8'>
               <img src={unten} alt="" className='works' />
               <img src={unone} alt="" className='works' />
@@ -93,7 +93,7 @@ function Casestudies() {
         }
         {showMessage3 &&
 
-          <div className='max-w-lg mb-10  mx-auto md:w-[90vw] justify-center'>
+          <div className='max-w-lg min-w-min mb-10  mx-auto md:w-[90vw] justify-center'>
             <div className='grid grid-cols-2 gap-y-6 md:gap-x-8'>
               <img src={untwo} alt="" className='works' />
               <img src={unnine} alt="" className='works' />

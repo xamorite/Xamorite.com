@@ -3,7 +3,7 @@ import Abou from './About.png'
 function About() {
   return (
     <div className='w-[90vw] mx-auto mt-[10vw]  '>
-    <div className='w-[90%] mx-auto sm:text-4xl md:text-4xl text-[3.8vw] lg:text-[1.8vw]  '>Hi, I’m Ogunneye Emmanuel (Xamorite). I am a developer based in UAE, DUBAI focused on creating interactive digital experiences on the web, working with brands and industry leaders such as DISNEY, Volkswagen, Rag & Bone, and Knight Frank amongst others to achieve this. Have been working in the development industry for over a decade.</div>
+    <div className='w-[90%] mx-auto sm:text-4xl md:text-4xl text-[3.8vw] lg:text-[1.8vw]  '>Hi 👋, I’m Ogunneye Emmanuel (Xamorite). I am a developer based in UAE, DUBAI focused on creating interactive digital experiences on the web, working with brands and industry leaders such as DISNEY, Volkswagen, Rag & Bone, and Knight Frank amongst others to achieve this. Have been working in the development industry for over a decade.</div>
     <div className='w-[60vw] ms-auto my-[10vw]'>
       <h1 className='text-[3.8vw]   lg:text-[1.5vw]'> <p className="text-[3.8vw] md:text-[1.8vw] font-semibold">Passion for Design: From <button className='btn-outline-dark btn rounded-full px-2 border-[black] border-[1px] '>Startups</button> to 
       <button className='btn-outline-dark btn rounded-full px-2 border-[black] border-[1px] mx-2'> Corporations</button>,
@@ -33,21 +33,21 @@ function About() {
 
         <ul className="mt-[15vh]">
           
-          <li className="flex row justify-between h-[15vh] my-[5vh] pb-[4vh] border-b-[.3vh] border-slate-700 align-center"><span>Webframe </span><span className='w-[25vw] text-[.8vw]
+          <li className="flex row justify-between h-auto my-[5vh] pb-[4vh] border-b-[.3vh] border-slate-700 align-center "><span>Webframe </span><span className='w-[25vw] md:text-[1.3vw] text-[2.3vw]
           
           j'>Wireframes are a crucial tool in the design process, providing a blueprint for the layout and functionality of a digital product. To create effective wireframes, it&apos;s important to understand the users needs and goals, as well as the requirements and constraints of the project.</span></li>
-          <li className="flex row justify-between h-[15vh] my-[5vh] pb-[5vh] border-b-[.3vh] border-slate-700 align-center"><span>Digital Design</span><span className='w-[25vw] text-[.8vw]'>To create effective designs, it&apos;s important to understand the needs, goals, and behaviors of the target audience. This can be achieved through user research and testing, which can uncover insights about user preferences and pain points. Once this information is gathered, designers can create wireframes and prototypes to iterate and refine the design.</span></li>
-          <li className="flex row justify-between h-[15vh] my-[5vh] pb-[5vh] border-b-[.3vh] border-slate-700 align-center"><span>Webflow develoopment</span><span className='w-[25vw] text-[.8vw]'>Webflow provides extensive design control, allowing users to customize every aspect of their websites. From typography and layouts to animations and interactions, users have the flexibility to create unique and visually appealing designs.</span></li>
+          <li className="flex row justify-between h-auto my-[5vh] pb-[5vh] border-b-[.3vh] border-slate-700 align-center"><span>Digital Design</span><span className='w-[25vw] md:text-[1.3vw] text-[2.3vw]'>To create effective designs, it&apos;s important to understand the needs, goals, and behaviors of the target audience. This can be achieved through user research and testing, which can uncover insights about user preferences and pain points. Once this information is gathered, designers can create wireframes and prototypes to iterate and refine the design.</span></li>
+          <li className="flex row justify-between h-auto my-[5vh] pb-[5vh] border-b-[.3vh] border-slate-700 align-center"><span>Webflow develoopment</span><span className='w-[25vw] md:text-[1.3vw] text-[2.3vw]'>Webflow provides extensive design control, allowing users to customize every aspect of their websites. From typography and layouts to animations and interactions, users have the flexibility to create unique and visually appealing designs.</span></li>
         </ul>
 
         <ul className="mt-[13vh]">
-          <li className="flex row justify-between h-[5vh] my-[5vh] pb-[5vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
-          <li className="flex row justify-between h-[5vh] my-[5vh] pb-[5vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
-          <li className="flex row justify-between h-[5vh] my-[5vh] pb-[5vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
-          <li className="flex row justify-between h-[5vh] my-[5vh] pb-[5vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
-          <li className="flex row justify-between h-[5vh] my-[5vh] pb-[5vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
-          <li className="flex row justify-between h-[5vh] my-[5vh] pb-[5vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
-          <li className="flex row justify-between h-[5vh] my-[5vh] pb-[5vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
+          <li className="flex row justify-between h-auto my-auto pb-[1vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
+          <li className="flex row justify-between h-auto my-auto pb-[1vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
+          <li className="flex row justify-between h-auto my-auto pb-[1vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
+          <li className="flex row justify-between h-auto my-auto pb-[1vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
+          <li className="flex row justify-between h-auto my-auto pb-[1vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
+          <li className="flex row justify-between h-auto my-auto pb-[1vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
+          <li className="flex row justify-between h-auto my-auto pb-[1vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
         </ul>
 
     </div>

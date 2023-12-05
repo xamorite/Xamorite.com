@@ -57,7 +57,7 @@ function Casestudies() {
           </button>
         </div>
       </div>
-      <div className='w-[70vw] mx-auto'>
+      <div className='w-full mx-auto'>
 
         {showMessage1 &&
           <div className= 'mx-auto max-w-lg min-w-min mb-10 md:w-[90vw] justify-center '>

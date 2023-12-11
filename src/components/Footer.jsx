@@ -18,11 +18,11 @@ function Footer() {
         <p className="text-gray-400 ">Have a nice Project?</p>
         <p className="text-4xl">Get in touch</p>
       </div>
-      <div className="flex justify-center gap-10 text-gray-400 py-2">
-        <Link>Twitter</Link>
-        <Link>Behance</Link>
-        <Link>Instagram</Link>
-        <Link>Dribbble</Link>
+      <div className="flex justify-center gap-10 text-gray-400 py-2 text-3xl">
+        <Link to={''}><ion-icon name="logo-twitter"></ion-icon></Link>
+        <Link><ion-icon name="logo-behance"></ion-icon></Link>
+        <Link><ion-icon name="logo-instagram"></ion-icon></Link>
+        <Link><ion-icon name="logo-dribbble"></ion-icon></Link>
       </div>
       <div className="flex justify-center gap-4">
         <span>License</span>

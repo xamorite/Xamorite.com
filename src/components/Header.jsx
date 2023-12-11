@@ -89,13 +89,13 @@ function Header() {
 
     </div>
     {isHidden && (<div className=' backdrop-blur-md bg-white md:bg-[#000000] md:bg-opacity-[3%] w-[50vw] p-[5%] ms-auto me-[4vw] leading-loose justify-center rounded-lg overflow-x-hidden '>
-      <div className='ms-auto cursor-pointer' onClick={closeContact}>
+      <div className='ms-auto cursor-pointer text-3xl' onClick={closeContact}>
       <ion-icon name='close'  ></ion-icon>
       </div>
-    <form action="Contact" className='mx-auto h-[80vh] md:h-auto'>  Hi, my name is <input type="text" placeholder='xamorite' />,you can answer <br />
-       me on this email <input type="email" placeholder='xamorite@gmail.com' /> i am looking <br />
-      for help with a <input type="text" placeholder='mobile app development' />My budget is <br />$
-      <input type="number" placeholder='850000' /><br />and i need it to be done by <input type="text" className='mb-[3vh]' placeholder="12th of august"/><br />
+    <form action="Contact" className='mx-auto h-[80vh] md:h-auto'>  Hi, my name is <input type="text" placeholder='xamorite' className='inputes' />,you can answer <br />
+       me on this email <input type="email" placeholder='xamorite@gmail.com' className='inputes' /> i am looking <br />
+      for help with a <input type="text" placeholder='mobile app development' className='inputes' />My budget is <br />$
+      <input type="number" placeholder='850000' className='inputes' /><br />and i need it to be done by <input type="text" className='mb-[3vh] inputes' placeholder="12th of august" /><br />
       <button className='bg-black text-white px-3 py-2 rounded-full' >Contact us</button>
       </form>
           </div>)}

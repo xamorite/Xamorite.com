@@ -6,4 +6,7 @@
     .works{
         @apply aspect-video w-40 md:w-64 mx-auto
     }
+    .inputes{
+        @apply bg-transparent
+    }
 }

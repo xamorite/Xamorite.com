@@ -24,11 +24,11 @@ function About() {
          </h1>
         <img src = {Abou} alt = "workspace" ></img>
         <ul className="mt-[13vh]">
+          <li className="flex row justify-between h-auto my-[5vh] pb-[5vh] border-b-[.3vh] border-slate-700 align-center"><span>Google Data Analytics Professional Certificate.</span><span>2023</span></li>
           <li className="flex row justify-between h-auto my-[5vh] pb-[5vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
-          <li className="flex row justify-between h-auto my-[5vh] pb-[5vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
-          <li className="flex row justify-between h-auto my-[5vh] pb-[5vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
-          <li className="flex row justify-between h-auto my-[5vh] pb-[5vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
-          <li className="flex row justify-between h-auto my-[5vh] pb-[5vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
+          <li className="flex row justify-between h-auto my-[5vh] pb-[5vh] border-b-[.3vh] border-slate-700 align-center"><span>Webflow Developer</span><span>2023</span></li>
+          <li className="flex row justify-between h-auto my-[5vh] pb-[5vh] border-b-[.3vh] border-slate-700 align-center"><span>Visual Communications and Solutions</span><span>2023</span></li>
+          <li className="flex row justify-between h-auto my-[5vh] pb-[5vh] border-b-[.3vh] border-slate-700 align-center"><span>Frontend Development Course London App Brewery</span><span>2023</span></li>
         </ul>
 
         <ul className="mt-[15vh]">
@@ -41,13 +41,12 @@ function About() {
         </ul>
 
         <ul className="mt-[13vh]">
-          <li className="flex row justify-between h-auto my-[5vh] pb-[1vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
-          <li className="flex row justify-between h-auto my-[5vh] pb-[1vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
-          <li className="flex row justify-between h-auto my-[5vh] pb-[1vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
-          <li className="flex row justify-between h-auto my-[5vh] pb-[1vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
-          <li className="flex row justify-between h-auto my-[5vh] pb-[1vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
-          <li className="flex row justify-between h-auto my-[5vh] pb-[1vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
-          <li className="flex row justify-between h-auto my-[5vh] pb-[1vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
+          <li className="flex row justify-between h-auto my-[5vh] pb-[1vh] border-b-[.3vh] border-slate-700 align-center"><span>The Ultra Index® ⏤ For storytelling experience</span><span>2023</span></li>
+          <li className="flex row justify-between h-auto my-[5vh] pb-[1vh] border-b-[.3vh] border-slate-700 align-center"><span>Awwwards ⏤ Site of the Day (x12)</span><span>2023</span></li>
+          <li className="flex row justify-between h-auto my-[5vh] pb-[1vh] border-b-[.3vh] border-slate-700 align-center"><span>Designer of the Year ⏤ Nominee</span><span>2023</span></li>
+          <li className="flex row justify-between h-auto my-[5vh] pb-[1vh] border-b-[.3vh] border-slate-700 align-center"><span>2022 Figma Community Award ⏤ Nominee</span><span>2023</span></li>
+          <li className="flex row justify-between h-auto my-[5vh] pb-[1vh] border-b-[.3vh] border-slate-700 align-center"><span>CSSAwards ⏤ Featured of the Day (x20+)</span><span>2023</span></li>
+          <li className="flex row justify-between h-auto my-[5vh] pb-[1vh] border-b-[.3vh] border-slate-700 align-center"><span>Awwwards ⏤ Developer Award (x6)</span><span>2023</span></li>
         </ul>
 
     </div>

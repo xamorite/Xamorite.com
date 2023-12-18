@@ -27,7 +27,7 @@ function Header() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('default_service', 'template_7ekt0pk', form.current, 'YOUR_PUBLIC_KEY')
+    emailjs.sendForm('service_6p4kj0o', 'template_7ekt0pk', form.current, 'zEfq50iiqPVRep1vI')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -108,13 +108,13 @@ function Header() {
       <ion-icon name='close'  ></ion-icon>
       </div>
     <form action="Contact" className='mx-auto h-[80vh] md:h-auto ' ref={form} onSubmit={sendEmail}>  Hi, my name is
-     <input type="text" placeholder='xamorite' className='inputes' id="from_name" />,you can answer <br />
+     <input type="text" placeholder='xamorite' className='inputes' name='from_name' id="from_name" />,you can answer <br />
        me on this email
-        <input type="email" placeholder='xamorite@gmail.com' className='inputes' id="email_id" /> i am looking <br />
+        <input type="email" placeholder='xamorite@gmail.com' className='inputes'name='email_id' id="email_id" /> i am looking <br />
       for help with a
-       <input type="text" placeholder='mobile app development' className='inputes' id="software" />My budget is <br />$
-      <input type="number" placeholder='850000' className='inputes' id="price"  /><br />and i need it to be done by <input type="text" className='mb-[3vh] inputes' placeholder="12th of august" id="when"/><br />
-      <button className='bg-black text-white px-3 py-2 rounded-full' type="submit" id="button" value="Send" >Contact us</button>
+       <input type="text" placeholder='mobile app development' className='inputes' name='software' id="software" />My budget is <br />$
+      <input type="number" placeholder='850000' className='inputes' name='price' id="price"  /><br />and i need it to be done by <input type="text" className='mb-[3vh] inputes' placeholder="12th of august" name='when' id="when"/><br />
+      <button className='bg-black text-white px-3 py-2 rounded-full' type="submit" id="button" value="Send" >Contact Us</button>
       </form>
 
     

@@ -1,6 +1,6 @@
 
-import { useState } from 'react';
-
+import { useState, useRef } from 'react';
+import emailjs from '@emailjs/browser';
 function Header() {
 
   let Links = [
@@ -20,6 +20,21 @@ function Header() {
   const closeContact = () => {
     setIsHidden(false);
   };
+
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('default_service', 'template_7ekt0pk', form.current, 'YOUR_PUBLIC_KEY')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
 
   return (
             <div className='top-0 z-30 sticky'>
@@ -92,13 +107,19 @@ function Header() {
       <div className='ms-auto cursor-pointer text-3xl' onClick={closeContact}>
       <ion-icon name='close'  ></ion-icon>
       </div>
-    <form action="Contact" className='mx-auto h-[80vh] md:h-auto'>  Hi, my name is <input type="text" placeholder='xamorite' className='inputes' />,you can answer <br />
-       me on this email <input type="email" placeholder='xamorite@gmail.com' className='inputes' /> i am looking <br />
-      for help with a <input type="text" placeholder='mobile app development' className='inputes' />My budget is <br />$
-      <input type="number" placeholder='850000' className='inputes' /><br />and i need it to be done by <input type="text" className='mb-[3vh] inputes' placeholder="12th of august" /><br />
-      <button className='bg-black text-white px-3 py-2 rounded-full' >Contact us</button>
+    <form action="Contact" className='mx-auto h-[80vh] md:h-auto ' ref={form} onSubmit={sendEmail}>  Hi, my name is
+     <input type="text" placeholder='xamorite' className='inputes' id="from_name" />,you can answer <br />
+       me on this email
+        <input type="email" placeholder='xamorite@gmail.com' className='inputes' id="email_id" /> i am looking <br />
+      for help with a
+       <input type="text" placeholder='mobile app development' className='inputes' id="software" />My budget is <br />$
+      <input type="number" placeholder='850000' className='inputes' id="price"  /><br />and i need it to be done by <input type="text" className='mb-[3vh] inputes' placeholder="12th of august" id="when"/><br />
+      <button className='bg-black text-white px-3 py-2 rounded-full' type="submit" id="button" value="Send" >Contact us</button>
       </form>
+
+    
           </div>)}
+          
     </div>
 
   )

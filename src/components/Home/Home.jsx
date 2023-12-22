@@ -13,7 +13,7 @@ function Home() {
     <p className='text-sm'>Over 18 awards and mentions from renowned industry players like Awwwards, FWA, and CSSDA. I can&apos;t wait to see what the future holds as I continue to innovate and create.</p>
   </div>
   <div className=' w-[80vw] md:ps-[15vw] '>
-    <p className='lg:text-7xl font-semibold md:text-[3vw] sm:text-[4vw] text-[5vw]'>
+    <p className='lg:text-7xl font-semibold md:text-[3vw] sm:text-[4vw] text-[7vw]'>
       UI/UX Designer and Front-end Developer currently based in Nigeria
     </p>
   </div>

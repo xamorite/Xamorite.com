@@ -10,7 +10,7 @@ function Home() {
     <div className=' overflow-hidden w-[98.7vw] mx-auto bg-[ #F5F5F5]'>
      <div className='flex justify-between p-8 overflow-x-hidden w-[90vw] mx-auto mt-20'>
   <div className='w-[17vw] overflow-hidden'>
-    <p className='text-sm '>Over 18 awards and mentions from renowned industry players like Awwwards, FWA, and CSSDA. I can&apos;t wait to see what the future holds as I continue to innovate and create.</p>
+    <p className='text-sm sm:hidden'>Over 18 awards and mentions from renowned industry players like Awwwards, FWA, and CSSDA. I can&apos;t wait to see what the future holds as I continue to innovate and create.</p>
   </div>
   <div className=' w-[80vw] ps-[15vw]'>
     <p className='lg:text-7xl font-semibold md:text-[3vw] sm:text-[4vw] text-[5vw]'>

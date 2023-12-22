@@ -7,6 +7,6 @@
         @apply aspect-video w-40 md:w-64 mx-auto
     }
     .inputes{
-        @apply bg-transparent
+        @apply bg-transparent mx-[.5vw] w-auto
     }
 }

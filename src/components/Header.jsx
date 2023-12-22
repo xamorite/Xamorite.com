@@ -103,7 +103,7 @@ function Header() {
           
 
     </div>
-    {isHidden && (<div className=' backdrop-blur-md bg-white md:bg-[#000000] md:bg-opacity-[3%] md:mt-[10vh] mt-[20vh] h-auto md:w-[40vw] w-[90vw] p-[5%] ms-auto md:me-[4vw] leading-loose justify-center rounded-lg overflow-x-hidden '>
+    {isHidden && (<div className=' backdrop-blur-md bg-white md:bg-[#000000] md:bg-opacity-[3%] md:mt-[10vh]  h-[100vh] md:w-[40vw] w-[100vw] p-[5%] ms-auto md:me-[4vw] leading-loose justify-center rounded-lg overflow-x-hidden '>
       <div className='ms-[95%] cursor-pointer text-4xl md:text-3xl' onClick={closeContact}>
       <ion-icon name='close'  ></ion-icon>
       </div>

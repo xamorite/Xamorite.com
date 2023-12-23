@@ -64,7 +64,7 @@ Mobile Application
           </div>
         
         
-        <div className="flex justify-center items-center font-semibold space-x-3 lg:space-x-8">
+        <div className="flex justify-center items-center md:font-semibold text-[2.5vw] space-x-3 lg:space-x-8 md:text-[2vw]"> 
           <button className='rounded-full border border-black md:py-[1vh] px-3     ' onClick={handleClick1}>
             <span className="">All Designs</span>
           </button>

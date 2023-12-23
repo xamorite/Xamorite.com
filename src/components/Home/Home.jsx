@@ -28,7 +28,7 @@ function Home() {
           <img src={unthree} alt="" className='w-[50vw] ' />
           <img src={unfour} alt="" className='w-[38vw] ' />
         </div>
-        <button className='btn rounded-full bg-black text-white px-4 py-2 ms-[5vw] mt-[4vh]'>All works</button>
+    <Link to='https://xamorite.netlify.app/CaseStudies'>  <button className='btn rounded-full bg-black text-white px-4 py-2 ms-[5vw] mt-[4vh]'>All works</button></Link>  
       </div>
       <div className='flex justify-between md:my-[20vh] my-[4vh] '>
         <div className='w-[90vw] flex justify-between mx-auto'>

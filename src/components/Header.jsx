@@ -1,6 +1,7 @@
 
 import { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { Link } from 'react-router-dom';
 function Header() {
 
   let Links = [
@@ -39,7 +40,7 @@ function Header() {
   return (
             <div className='top-0 z-30 sticky'>
     <div className='w-full justify-between flex px-5 lg:px-10 py-2 sticky top-0 z-30  backdrop-blur-md bg-[#000000] bg-opacity-[3%]'>
-      <h1 className='text-2xl bold'>Xamorite</h1>
+     <Link to='https://xamorite.netlify.app/'> <h1 className='text-2xl bold'>Xamorite</h1></Link>
       <div className='flex justify-between '>
 
           <div onClick={() => setOpen(!open)} className='flex items-center text-3xl  cursor-pointer md:hidden'>

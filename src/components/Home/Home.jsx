@@ -40,7 +40,7 @@ function Home() {
             <li>Knight Frank</li>
           </ul></div>
           <div className='w-[90vw] md:w-[62vw]'>
-            <p className='md:text-[2.5vw]  text-[4.5vw] ms-[4vw]'>Studied Web Development at <Link to='https://aptech-nigeria.com/'><button   className='p-[.3%] border-[1px] rounded-full border-black'>Aptech Education </button></Link>  And have been working in the development industry for over a decade.</p>
+            <p className='md:text-[2.5vw]  text-[4.5vw] ms-[4vw]'>Studied Web Development at <Link to='https://aptech-nigeria.com/'><button   className='p-[.3%] border-[1px] rounded-full border-black'>Aptech Education </button></Link>  And have been working in the development industry for some while now.</p>
             <p className=' md:w-[41.5vw] ms-[4vw] mt-[5vh] md:mb-[10vh] font-light '>
         My passion for development & design started when I was young, and I have pursued this passion by working with a variety of clients and projects over the years. I have worked with startups, small businesses, and large corporations, creating user interfaces for websites, software applications, and mobile apps.
       </p>

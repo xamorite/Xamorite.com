@@ -23,7 +23,7 @@ function About() {
           </p>
          </h1>
         <img src = {Abou} alt = "workspace" ></img>
-        <ul className="mt-[13vh]">
+        <ul className="md:mt-[13vh]">
           <li className="flex row justify-between h-auto my-[5vh] pb-[5vh] border-b-[.3vh] border-slate-700 align-center"><span>Google Data Analytics Professional Certificate.</span><span>2023</span></li>
           <li className="flex row justify-between h-auto my-[5vh] pb-[5vh] border-b-[.3vh] border-slate-700 align-center"><span>Mastering frontend languages</span><span>2023</span></li>
           <li className="flex row justify-between h-auto my-[5vh] pb-[5vh] border-b-[.3vh] border-slate-700 align-center"><span>Webflow Developer</span><span>2023</span></li>
@@ -31,7 +31,7 @@ function About() {
           <li className="flex row justify-between h-auto my-[5vh] pb-[5vh] border-b-[.3vh] border-slate-700 align-center"><span>Frontend Development Course London App Brewery</span><span>2023</span></li>
         </ul>
 
-        <ul className="mt-[15vh]">
+        <ul className="md:mt-[15vh]">
           
           <li className="flex row justify-between h-auto my-[5vh] pb-[4vh] border-b-[.3vh] border-slate-700 align-center "><span>Webframe </span><span className='w-[25vw] md:text-[1.3vw] text-[2.3vw]
           
@@ -40,7 +40,7 @@ function About() {
           <li className="flex row justify-between h-auto my-[5vh] pb-[5vh] border-b-[.3vh] border-slate-700 align-center"><span>Webflow development</span><span className='w-[25vw] md:text-[1.3vw] text-[2.3vw]'>Webflow provides extensive design control, allowing users to customize every aspect of their websites. From typography and layouts to animations and interactions, users have the flexibility to create unique and visually appealing designs.</span></li>
         </ul>
 
-        <ul className="mt-[13vh]">
+        <ul className="md:mt-[13vh]">
           <li className="flex row justify-between h-auto my-[5vh] pb-[1vh] border-b-[.3vh] border-slate-700 align-center"><span>The Ultra Index® ⏤ For storytelling experience</span><span>2023</span></li>
           <li className="flex row justify-between h-auto my-[5vh] pb-[1vh] border-b-[.3vh] border-slate-700 align-center"><span>Awwwards ⏤ Site of the Day (x12)</span><span>2023</span></li>
           <li className="flex row justify-between h-auto my-[5vh] pb-[1vh] border-b-[.3vh] border-slate-700 align-center"><span>Designer of the Year ⏤ Nominee</span><span>2023</span></li>

@@ -50,6 +50,7 @@ function About() {
         </ul>
 
     </div>
+    <a href='https://xamorite.netlify.app/About' download='cv'>Download CV</a>
   </div>
   )
 }

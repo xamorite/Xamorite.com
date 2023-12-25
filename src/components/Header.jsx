@@ -1,6 +1,5 @@
 
-import { useState, useRef } from 'react';
-import emailjs from '@emailjs/browser';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 function Header() {
 
@@ -8,33 +7,25 @@ function Header() {
     { name: "Home", link: "/" },
     { name: "Casestudies", link: "./CaseStudies" },
     { name: "About", link: "./About" },
+    { name: "Contact", link: "./Contact" },
     // { name: "Contact", link: "./Contact" },
   ];
 
   let [open, setOpen] = useState(false)
 
-  const [isHidden, setIsHidden] = useState(false);
+  // const [isHidden, setIsHidden] = useState(false);
 
-  const handleClick = () => {
-    setIsHidden(true);
-  };
-  const closeContact = () => {
-    setIsHidden(false);
-  };
+  // const handleClick = () => {
+  //   setIsHidden(true);
+  // };
+  // const closeContact = () => {
+  //   setIsHidden(false);
+  // };
 
 
-  const form = useRef();
+ 
 
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs.sendForm('service_6p4kj0o', 'template_7ekt0pk', form.current, 'zEfq50iiqPVRep1vI')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
-  };
+ 
 
 
   return (
@@ -66,14 +57,14 @@ function Header() {
               Links.map((link) =>
 
                 <li key={Links.link} className=' md:ml-8 text-xl text-black md:my-0 my-7'>
-                  <a href={link.link} className='text-gray-600 ' >{link.name}</a>
+                  <a href={link.link} className='text-gray-600' >{link.name}</a>
                 </li>
               )
             }
-            <li className='md:ml-8 text-xl text-gray-600 md:my-0 my-7 cursor-pointer ' onClick={handleClick}>
+            {/* <li className='md:ml-8 text-xl text-gray-600 md:my-0 my-7 cursor-pointer ' onClick={handleClick}>
               <a >Contact</a>
 
-            </li>
+            </li> */}
           </ul>
 
 
@@ -104,22 +95,7 @@ function Header() {
           
 
     </div>
-    {isHidden && (<div className=' backdrop-blur-md bg-white md:bg-[#000000] md:bg-opacity-[3%] md:mt-[10vh]  h-[100vh] md:w-[40vw] w-[100vw] p-[5%] ms-auto md:me-[4vw] leading-loose justify-center rounded-lg overflow-x-hidden '>
-      <div className='ms-[95%] cursor-pointer text-4xl md:text-3xl' onClick={closeContact}>
-      <ion-icon name='close'  ></ion-icon>
-      </div>
-    <form action="Contact" className='mx-auto h-[80vh] md:h-auto ' ref={form} onSubmit={sendEmail}>  Hi, my name is
-     <input type="text" placeholder='xamorite' className='inputes' name='from_name' id="from_name" />,you can answer <br />
-       me on this email
-        <input type="email" placeholder='xamorite@gmail.com' className='inputes'name='email_id' id="email_id" /> i am looking <br />
-      for help with a
-       <input type="text" placeholder='mobile app development' className='inputes' name='software' id="software" />My budget is <br />$
-      <input type="number" placeholder='850000' className='inputes' name='price' id="price"  /><br />and i need it to be done by <input type="text" className='mb-[3vh] inputes' placeholder="12th of august" name='when' id="when"/><br />
-      <button className='bg-black text-white px-3 py-2 rounded-full' type="submit" id="button" value="Send" >Contact Us</button>
-      </form>
-
-    
-          </div>)}
+  
           
     </div>
 
